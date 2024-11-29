@@ -19,7 +19,6 @@ Instalación y uso: Para utilizar este PandaQ se necessita los siguientes prereq
 	3- pip install antlr4-python3-runtime
 
 -Python3.10 o posterior. Puedes utilizar las siguientes comandas para instalar python3.10 en ubuntu:
-
 		1- sudo add-apt-repository ppa:deadsnakes/ppa
 		2- sudo apt update 
 		3- sudo apt install python3.10
