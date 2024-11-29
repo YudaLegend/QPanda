@@ -13,7 +13,9 @@ Instalación y uso: Para utilizar este PandaQ se necessita los siguientes prereq
    -Antrl4 para Python:
    
         1- pip install antlr4-tools
+	
 	2- antlr4
+ 
 	3- pip install antlr4-python3-runtime
 
 -Python3.10 o posterior. Puedes utilizar las siguientes comandas para instalar python3.10 en ubuntu:
