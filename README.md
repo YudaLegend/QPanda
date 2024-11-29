@@ -13,24 +13,25 @@ Instalación y uso: Para utilizar este PandaQ se necessita los siguientes prereq
    -Antrl4 para Python:
 
         1- pip install antlr4-tools
-		2- antlr4
-		3- pip install antlr4-python3-runtime
+	2- antlr4
+	3- pip install antlr4-python3-runtime
 
 -Python3.10 o posterior. Puedes utilizar las siguientes comandas para instalar python3.10 en ubuntu:
 
 		1- sudo add-apt-repository ppa:deadsnakes/ppa
 		2- sudo apt update 
 		3- sudo apt install python3.10
+  
 -Streamlit. Puedes utilizar las siguientes comandas para instalar streamlit en ubuntu
 
-		1-pip install streamlit
+	1-pip install streamlit
         2-streamlit hello
 
 -Para ejectar el panda-py con streamlit utiliza los siguientes comandos para generar los archivos necessarios:
         
         1- antlr4 -Dlanguage=Python3 -no-listener pandaQ.g4
         2- antlr4 -Dlanguage=Python3 -no-listener -visitor pandaQ.g4
-        3- run streamlit PandaQ.py
+        3- streamlit run PandaQ.py
 
 Recuerda que los archivos anteriores comienzan por el nombre de la gramatica.
 
