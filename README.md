@@ -11,6 +11,7 @@ PandaQ: consisteix en implementar un petit intèrpret anomenat PandaQ amb les ca
 Instalación y uso: Para utilizar este PandaQ se necessita los siguientes prerequisitos:          
 
    -Antrl4 para Python:
+   
         1- pip install antlr4-tools
 	2- antlr4
 	3- pip install antlr4-python3-runtime
