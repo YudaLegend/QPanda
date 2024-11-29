@@ -22,12 +22,10 @@ Instalación y uso: Para utilizar este PandaQ se necessita los siguientes prereq
 		3- sudo apt install python3.10
   
 -Streamlit. Puedes utilizar las siguientes comandas para instalar streamlit en ubuntu
-
 	1-pip install streamlit
         2-streamlit hello
 
 -Para ejectar el panda-py con streamlit utiliza los siguientes comandos para generar los archivos necessarios:
-        
         1- antlr4 -Dlanguage=Python3 -no-listener pandaQ.g4
         2- antlr4 -Dlanguage=Python3 -no-listener -visitor pandaQ.g4
         3- streamlit run PandaQ.py
